@@ -45,6 +45,10 @@ SS的Android客户端虽然也是用Scala写的，但只是用于实现了UI和V
 
 意识到这个问题后，我创建了一个[内存池](https://github.com/wuhx/shadowriver/blob/master/src/main/scala/actor/DirectByteBufferPool.scala)，并且使用Direct Buffer直接分配堆外内存，VPN每次收发数据包时不直接分配内存，而是从内存池获取一个预分配的内存，用完后再丢回去，留给后续数据包继续用。这样做有一些效果（可以打开几个页面了）但还没解决问题。
 
+#### 编译运行
+
+`sbt run`
+
 #### 有任何问题和建议请提ISSUE，感谢!
 
 相关链接
