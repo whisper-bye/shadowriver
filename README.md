@@ -53,6 +53,8 @@ SS的Android客户端虽然也是用Scala写的，但只是用于实现了UI和V
 
 相关链接
 
+[再造轮子:shadowriver 一个纯 JVM/Scala 实现的 Android VPN 应用程序](https://www.v2ex.com/t/360413)
+
 [自己动手写VPN](http://xun.im/2016/06/02/write-your-own-vpn/)
 
 [服务端](https://github.com/wuhx/vpnfromscratch-server)
